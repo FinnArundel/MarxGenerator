@@ -63,7 +63,7 @@ button:active {
 
 
 #contentContainer {
-  width: 80vw;
+  width: 90vw;
   min-height: 60vh;
   position: fixed;
   bottom: 30vw;
@@ -78,9 +78,9 @@ button:active {
 #generatedContent {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 18px;
-  padding-left: 2%;
-  padding-right: 2%;
+  font-size: 22px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 
