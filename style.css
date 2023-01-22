@@ -6,7 +6,7 @@ html, body {
 }
 
 #contentContainer {
-  width: 80vh;
+  width: 60vw;
   min-height: 450px;
   position: fixed;
   bottom: 32vh;
@@ -21,7 +21,7 @@ html, body {
 #generatedContent {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 32px;
+  font-size: 18px;
   padding-left: 5%;
   padding-right: 5%;
 }
