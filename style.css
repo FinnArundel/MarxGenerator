@@ -6,10 +6,10 @@ html, body {
 }
 
 #contentContainer {
-  width: 60vw;
-  min-height: 450px;
+  width: 42vw;
+  min-height: 22vw;
   position: fixed;
-  bottom: 32vh;
+  bottom: 15vw;
   left: 50%;
   transform: translate(-50%, 0);
   /* border: 3px solid black; */
@@ -21,7 +21,7 @@ html, body {
 #generatedContent {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  font-size: 18px;
+  font-size: 2.2vw;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -29,7 +29,7 @@ html, body {
 
 button {
   position: fixed;
-  bottom: 25vh;
+  bottom: 10vw;
   left: 50%;
   transform: translate(-50%, 0);
 
@@ -37,10 +37,9 @@ button {
   background-color: #6B71F2;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 22px;
-  padding: 10px 34px;
+  font-size: 1.8vw;
+  padding: 0.5vw 1.3vw;
   border-radius: 72px;
-  margin-top: 2vh;
   transition-duration: 0.2s;
   box-sizing: border-box;
   vertical-align: middle;
@@ -53,7 +52,7 @@ button:hover {
 }
 
 button:active {
-  padding: 12px 36px;
+  padding: 0.6vw 1.4vw;
   background-color: #8857F2;
   cursor: grabbing;
 }
