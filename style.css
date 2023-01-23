@@ -72,44 +72,25 @@ button:active {
 
 
 #contentContainer {
-  width:75vw;
+  width:86vw;
   min-height: 40vh;
   position: fixed;
-  bottom: 30vw;
-  left: 50%;
-  transform: translate(-50%, 0);
-  /* border: 3px solid black; */
-  border-radius: 40px;
-  background-color: #F28705;
-  
+  bottom: 40vw;
 }
 
 #generatedContent {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 32px;
-  padding-left: 5%;
-  padding-right: 5%;
+  font-size: 6.5vw;;
 }
 
-
 button {
-  position: fixed;
-  bottom: 5vw;
-  left: 50%;
-  transform: translate(-50%, 0);
-
-  border: none;
-  background-color: #6B71F2;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
-  padding: 10px 22px;
-  border-radius: 72px;
-  margin-top: 2vh;
+  font-size: 8vw;
+  padding: 4vw 8vw;
   transition-duration: 0.2s;
   box-sizing: border-box;
   vertical-align: middle;
+
+  position: fixed;
+  bottom: 7vw;
 
 }
 
@@ -119,7 +100,7 @@ button:hover {
 }
 
 button:active {
-  padding: 12px 36px;
+  padding: 5vw 9vw;
   background-color: #8857F2;
   cursor: grabbing;
 }
