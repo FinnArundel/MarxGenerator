@@ -75,7 +75,7 @@ button:active {
   width:86vw;
   min-height: 40vh;
   position: fixed;
-  bottom: 40vw;
+  bottom: 32vw;
 }
 
 #generatedContent {
@@ -83,14 +83,14 @@ button:active {
 }
 
 button {
-  font-size: 8vw;
+  font-size: 6vw;
   padding: 4vw 8vw;
   transition-duration: 0.2s;
   box-sizing: border-box;
   vertical-align: middle;
 
   position: fixed;
-  bottom: 7vw;
+  bottom: 4vw;
 
 }
 
